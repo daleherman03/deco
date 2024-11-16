@@ -1,0 +1,55 @@
+/* Ensure the container takes up the full height of the viewport */
+.contact-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Wrapper for the form to control its width and styling */
+  .contact-form-wrapper {
+    width: 100%;
+    max-width: 75%; /* Limit form width to 50% of the page */
+    background-color: #734444;
+    padding: 1.25vmax;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 2px #000;
+  }
+  
+  /* Ensure the submit button takes the full width */
+  .custom-submit-button {
+    width: 100%; /* Make sure the button takes the full width */
+    height: 2.5vmax;
+    background-color: #99B27F; /* Set the background color */
+    border: none; /* Remove the default border */
+    padding: 0.50vmax; /* Add some padding for better appearance */
+    margin-top: 0.50vmax;
+    font-size: 0.75vmax; /* Adjust the font size */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+    color: #EEEDBE;
+    text-shadow: 2px 2px 4px #734444;
+    font-family: 'Montserrat';
+  }
+  
+  /* Optional: Darken the button color slightly on hover */
+  .custom-submit-button:hover {
+    background-color: #88a56e;
+    color: #EEEDBE;
+  }
+  
+  .form_group {
+    margin: 1vmax;
+    color: #EEEDBE;
+    font-family: 'Montserrat';
+    text-shadow: 2px 2px 4px #000;
+  }
+  
+  h2 {
+    color: #EEEDBE;
+    text-shadow: 2px 2px 4px #000;
+    font-family: 'Montserrat';
+    font-size: 2vmax;
+  }
+  

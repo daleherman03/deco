@@ -1,0 +1,82 @@
+.image_container {
+    height: 75vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4vh; /* Add space below the image container */
+}
+
+
+.home_image {
+    height: 90vh;
+    width: 100vw;
+    object-fit: fill;
+    filter: brightness(0.75);
+    z-index: 1;
+}
+
+.statement_container {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+    width: 55%;
+    height: 33%;
+    border: 2px solid #EEEDBE;
+    border-radius: 49%;
+    background-color: #734444;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 1);
+}
+
+.statement {
+    font-size: 2vmax;
+    margin: 0;
+    text-shadow: 4px 4px 3px #000;
+    color: #EEEDBE;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    padding: 1vmax;
+}
+
+.about_section {
+    display: flex;
+    flex-direction: column; /* Ensure vertical flow */
+    align-items: center;
+    color: #EEEDBE;
+    text-shadow: 3px 3px 3px #5A2F2F;
+    padding-top: 3vh; /* Push the about section below the image */
+    padding: 5vmax;
+}
+
+
+.about_header {
+    font-size: 1.25vmax;
+    margin: 1vmax; /* Add margin for spacing */
+    text-decoration: underline;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+.about_paragraph, .about_list {
+    font-size: 1vmax;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    margin: 1vmax; /* Add margin for spacing */
+}
+
+.about_list {
+    list-style-type: disc;
+    padding-left: 1.5vmax; /* Add padding for list indentation */
+    padding-bottom: 1vmax;
+}
+
+li {
+    padding-bottom: 1vmax;
+}
